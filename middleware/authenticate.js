@@ -1,5 +1,5 @@
 import { compare } from "bcrypt";
-import { getUserDb } from "../model/userDb.js";
+import { getUserDb } from "../model/UserDb.js";
 import jwt from 'jsonwebtoken';
 import { config } from 'dotenv';
 config();
