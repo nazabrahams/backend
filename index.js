@@ -15,8 +15,8 @@ app.use(cors({
 
 app.use(express.static('public'))
 
-app.use('/Users', UserRouter)
-app.use('/Booking', BookingRouter)
+app.use('/users', UserRouter)
+app.use('/booking', BookingRouter)
 app.listen(PORT, ()=>{
     console.log('http://localhost:'+PORT);
 })
