@@ -1,4 +1,4 @@
-import { getUsersDb, getUserDb, insertUserDb, deleteUserDb, updateUserDB } from '../model/userDb.js';
+import { getUsersDb, getUserDb, insertUserDb, deleteUserDb, updateUserDB } from '../model/UserDb.js';
 import { hash } from 'bcrypt';
 
 const getUsers = async (req, res) => {
