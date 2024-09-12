@@ -1,4 +1,4 @@
-import { getBookingsDb, getBookingDb, insertBookingDb, deleteBookingDb, updateBookingDB, addToCartDB } from '../model/bookingDb.js';
+import { getBookingsDb, getBookingDb, insertBookingDb, deleteBookingDb, updateBookingDB, addToCartDB } from '../model/BookingDb.js';
 import { getUserDb } from '../model/userDb.js';
 
 const getBookings = async (req, res) => {
