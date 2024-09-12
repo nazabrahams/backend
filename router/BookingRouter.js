@@ -1,8 +1,8 @@
 import express from 'express';
 import { getBookings, getBooking, insertBooking, deleteBooking, updateBooking, addToCart } from '../controller/BookController.js';
-const router = express.Router();
 import { verifyAToken } from '../middleware/authenticate.js';
 
+const router = express.Router();
 // Route to add a booking to the cart with authentication
 router.post('/cart', verifyAToken, addToCart);
 
