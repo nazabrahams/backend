@@ -1,5 +1,5 @@
 import express from 'express';
-import { getBookings, getBooking, insertBooking, deleteBooking, updateBooking, addToCart } from '../controller/bookingController.js';
+import { getBookings, getBooking, insertBooking, deleteBooking, updateBooking, addToCart } from '../controller/BookController.js';
 const router = express.Router();
 import { verifyAToken } from '../middleware/authenticate.js';
 
