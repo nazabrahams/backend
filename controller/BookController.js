@@ -1,5 +1,5 @@
 import { getBookingsDb, getBookingDb, insertBookingDb, deleteBookingDb, updateBookingDB, addToCartDB } from '../model/BookingDb.js';
-import { getUserDb } from '../model/userDb.js';
+import { getUserDb } from '../model/UserDb.js';
 
 const getBookings = async (req, res) => {
     res.json(await getBookingsDb());
