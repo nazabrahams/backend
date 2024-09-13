@@ -41,7 +41,7 @@ export default {
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.7); 
   padding: 10px;
-  display: inline; /* add this line */
+  display: inline;
   }
   .about{
     margin-bottom: 3%;

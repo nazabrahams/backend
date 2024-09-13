@@ -1,5 +1,5 @@
 <template>
-    <div>     
+    <div class="just">     
     <h1 class="contact">Contact Us</h1>
        <div class="col-lg-6 hehe">
                 <form class="form" action="https://submit-form.com/aJHNAoawp" style="max-width: 400px; margin-left: 10%; margin-top: 5%;" >
@@ -17,19 +17,20 @@
         Send</button>
     </form>
     </div>
+    <!-- <img class="BSLOGO" src="https://github.com/nazabrahams/capstoneimgs/blob/main/Beauty_sync-removebg-preview.png?raw=true" height="200" width="200">  -->
     <div class="col-lg-6">
                 <div class="social-media">
                     <p class="social-link">
-                        <img class="logos" src="https://github.com/nusaibah1/projectImages/blob/main/images2/face%201.png?raw=true" alt="facebook" width="20px" height="20px" />
-                        <span class="name">@PetCo_</span>
+                        <img class="logos" src="https://github.com/nazabrahams/capstoneimgs/blob/main/face%201.png?raw=true" alt="facebook" width="20px" height="20px" />
+                        <span class="name">@BeautySync</span>
                     </p>
                     <p class="social-link">
-                        <img class="logos" src="https://github.com/nusaibah1/projectImages/blob/main/images2/insta%201.png?raw=true" alt="instagram" width="20px" height="20px" />
-                        <span class="name">@PetCO_Cpt</span>
+                        <img class="logos" src="https://github.com/nazabrahams/capstoneimgs/blob/main/insta%201.png?raw=true" alt="instagram" width="20px" height="20px" />
+                        <span class="name">@BeautySync_</span>
                     </p>
                     <p class="social-link">
-                        <img class="logos" src="https://github.com/nusaibah1/projectImages/blob/main/images2/twitter%201.png?raw=true" alt="twitter" width="20px" height="20px" />
-                        <span class="name">@_PetCo</span>
+                        <img class="logos" src="https://github.com/nazabrahams/capstoneimgs/blob/main/twitter%201.png?raw=true" alt="twitter" width="20px" height="20px" />
+                        <span class="name">@_BeautySync</span>
                     </p>
                 </div>
             </div>
@@ -62,6 +63,7 @@ label, input, textarea {
 .contact{
     margin-top: 7%;
     margin-left: 5%;
+    
 }
 .social-media {
     display: flex;
@@ -82,4 +84,12 @@ label, input, textarea {
   font-weight: bold;
   font-family: "Bungee", sans-serif;
 }
+/* .BSLOGO{
+    display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;  
+} */
+ .just {
+    height: 70vh;
+ }
   </style>
