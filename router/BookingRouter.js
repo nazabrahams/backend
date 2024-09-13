@@ -3,19 +3,17 @@ import { getBookings, getBooking, insertBooking, deleteBooking, updateBooking, a
 import { verifyAToken } from '../middleware/authenticate.js';
 
 const router = express.Router();
-// Route to add a booking to the cart with authentication
 router.post('/cart', verifyAToken, addToCart);
 
-// Routes for managing bookings
 router
     .route('/bookings')
-    .get(getBookings)       // Get all bookings
-    .post(insertBooking);   // Add a new booking
+    .get(getBookings)       
+    .post(insertBooking);   
 
 router
     .route('/bookings/:id')
-    .get(getBooking)        // Get a single booking by ID
-    .delete(deleteBooking) // Delete a booking by ID
-    .patch(updateBooking); // Update booking information by ID
+    .get(getBooking)        
+    .delete(deleteBooking) 
+    .patch(updateBooking); 
 
 export default router;
